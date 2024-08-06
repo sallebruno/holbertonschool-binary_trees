@@ -8,5 +8,10 @@
 
 int binary_tree_is_root(const binary_tree_t *node);
 {
-	
+	if (tree && func)
+	{
+		func(tree->n);
+		binary_tree_preorder(tree->left, func);
+		binary_tree_preorder(tree->right, func);
+	}
 }
