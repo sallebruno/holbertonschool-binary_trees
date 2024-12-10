@@ -7,13 +7,13 @@
  * @parent: Pointer to the parent node.
  * @value: Value for new node.
  * Return: New node if there's no error.
- * 		Otherwise - NULL
+ *		Otherwise - NULL
  */
 
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 {
 	binary_tree_t *new;
-	
+
 	new = malloc(sizeof(binary_tree_t));
 	if (new == NULL)
 		return (NULL);
