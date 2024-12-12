@@ -3,7 +3,7 @@
 
 /**
  * binary_tree_delete - Entry of the program
- * @tr
+ * @tree: adadadas
  */
 
 void binary_tree_delete(binary_tree_t *tree)
@@ -15,4 +15,4 @@ void binary_tree_delete(binary_tree_t *tree)
 	binary_tree_delete(tree->right);
 
 	free(tree);
-}	
+}
